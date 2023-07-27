@@ -224,32 +224,6 @@
         <h5>※이 사이트의 저작권은 저에게 있습니다. 무단 배포 금지합니다.</h5>
     </footer>
 
-    <script>
-        // a 태그 클릭시 스르륵 스크롤 이벤트 처리 함수
-        function smoothScroll(target) {
-            const element = document.querySelector(target);
-            const headerOffset = 170; // 상단 메뉴 바의 높이
-
-            if (!element) return;
-
-            const elementPosition = element.getBoundingClientRect().top;
-            const offsetPosition = elementPosition - headerOffset;
-
-            window.scrollBy({
-                top: offsetPosition,
-                behavior: "smooth"
-            });
-        }
-
-        // a 태그에 클릭 이벤트 리스너 추가
-        const anchorTags = document.querySelectorAll("#nav ul li a");
-        anchorTags.forEach(anchor => {
-            anchor.addEventListener("click", function (event) {
-                event.preventDefault(); // 기본 링크 동작 중지
-                const href = anchor.getAttribute("href");
-                smoothScroll(href); // 스르륵 스크롤 이벤트 실행
-            });
-        });
-    </script>
+    
 </body>
 </html>
