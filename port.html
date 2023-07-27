@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" style="border-radius: 30%;" href="C:\Users\aroma\OneDrive\사진\카메라 앨범\logo1.jpg"/>
+    <link rel="stylesheet" href="contact.css">
     <title>한결의 포트폴리오</title>
     <style>
         body {
@@ -29,14 +30,15 @@
             margin: 0;           
         }
 
-        section {
+        .about, .act, .skills {
             padding: 50px;
             max-width: 800px;
             margin: 0 auto;
             background-color: lemonchiffon;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             margin-top: 20px;
+            border-radius: 5px;
         }
 
         h2 {
@@ -78,7 +80,7 @@
             text-decoration: none;
             color: black;
             font-size: 15px;
-        }
+        } 
 
         nav {
             width: 99%;
@@ -96,6 +98,17 @@
             font-weight: 900px;
             line-height: 80px;
             padding: 0 30px;
+            transition: color 0.3s ease, background-color 0.3s ease;
+            background-color: black;
+            color: #fff;
+            border-radius: 40px;
+        }
+        
+        #nav > a:hover {
+            color: rgb(189, 82, 236);
+            background-color: black;
+            border-radius: 40px;
+            backdrop-filter: blur(10px);
         }
 
         #nav > ul {
@@ -127,11 +140,11 @@
 <body>
     <header>
         <nav id="nav">
-            <a href="https://kim060904.github.io/save/port.html">나의 포트폴리오</a>
+            <a href="port.html">HG portfolio</a>
             <ul>
                 <li><a href="#about">ABOUT ME</a></li>
                 <li><a href="#act">ACTIVITES</a></li>
-                <li><a href="#career">CAREER</a></li>
+                <li><a href="#skills">SKILLS</a></li>
                 <li><a href="#mobile">MOBILE</a></li>
             </ul>
         </nav>
@@ -140,71 +153,70 @@
     <section class="about">
         <h2 id="about">자기 소개</h2>
         <p>
-            왜 이제 왔나요 더 야윈 그대 나 만큼 힘들었나요
-두 번 살게 하네요 그댄 내 삶을 난 모든 걸 버리려 했죠
-왜 나를 떠나요 아플 거면서 사랑이 여기있는데
-다신 그러지마요 내가 죽어요 그댄 나의 숨이니까요
-나 그댈 잃는다는 건 내 삶이 다 한 것 살아도 지옥인거죠
-그댄 나의 전부 그댄 나의 운명 헤어질 수 없어요
-영원보다 먼 곳에 우리 사랑가져가요
-눈물 없는 세상 나의 사랑 하나로만 그댈 살게 할게요
-그대와 나 영원히 행복할 그 곳 heaven
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam quae odio autem praesentium, 
+            magni voluptates esse voluptatum. Laudantium minus qui, laboriosam obcaecati assumenda quae, 
+            corporis dignissimos amet veritatis porro aperiam.
         </p>
     </section>
 
-    <section>
+    <section class="act">
         <h2 id="act">하고있는 일</h2>
             <ul>
                 <li>
                     <h3>첫 번째</h3>
                     <p>
-                        왜 이제 왔나요 더 야윈 그대 나 만큼 힘들었나요
-두 번 살게 하네요 그댄 내 삶을 난 모든 걸 버리려 했죠
-왜 나를 떠나요 아플 거면서 사랑이 여기있는데
-다신 그러지마요 내가 죽어요 그댄 나의 숨이니까요
-나 그댈 잃는다는 건 내 삶이 다 한 것 살아도 지옥인거죠
-그댄 나의 전부 그댄 나의 운명 헤어질 수 없어요
-영원보다 먼 곳에 우리 사랑가져가요
-눈물 없는 세상 나의 사랑 하나로만 그댈 살게 할게요
-그대와 나 영원히 행복할 그 곳 heaven
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam quae odio autem praesentium, 
+                        magni voluptates esse voluptatum. Laudantium minus qui, laboriosam obcaecati assumenda quae, 
+                        corporis dignissimos amet veritatis porro aperiam.
                     </p>
                 </li>
                 <li>
                     <h3>두 번째</h3>
                     <p>
-                        왜 이제 왔나요 더 야윈 그대 나 만큼 힘들었나요
-두 번 살게 하네요 그댄 내 삶을 난 모든 걸 버리려 했죠
-왜 나를 떠나요 아플 거면서 사랑이 여기있는데
-다신 그러지마요 내가 죽어요 그댄 나의 숨이니까요
-나 그댈 잃는다는 건 내 삶이 다 한 것 살아도 지옥인거죠
-그댄 나의 전부 그댄 나의 운명 헤어질 수 없어요
-영원보다 먼 곳에 우리 사랑가져가요
-눈물 없는 세상 나의 사랑 하나로만 그댈 살게 할게요
-그대와 나 영원히 행복할 그 곳 heaven
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam quae odio autem praesentium, 
+                        magni voluptates esse voluptatum. Laudantium minus qui, laboriosam obcaecati assumenda quae, 
+                        corporis dignissimos amet veritatis porro aperiam.
                     </p>
                 </li>
             </ul>
     </section>
 
-    <section>
-        <h2 id="career">능력 및 경력</h2>
+    <section class="skills">
+        <h2 id="skills">능력 및 경력</h2>
         <p>
-            왜 이제 왔나요 더 야윈 그대 나 만큼 힘들었나요
-두 번 살게 하네요 그댄 내 삶을 난 모든 걸 버리려 했죠
-왜 나를 떠나요 아플 거면서 사랑이 여기있는데
-다신 그러지마요 내가 죽어요 그댄 나의 숨이니까요
-나 그댈 잃는다는 건 내 삶이 다 한 것 살아도 지옥인거죠
-그댄 나의 전부 그댄 나의 운명 헤어질 수 없어요
-영원보다 먼 곳에 우리 사랑가져가요
-눈물 없는 세상 나의 사랑 하나로만 그댈 살게 할게요
-그대와 나 영원히 행복할 그 곳 heaven
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam quae odio autem praesentium, 
+            magni voluptates esse voluptatum. Laudantium minus qui, laboriosam obcaecati assumenda quae, 
+            corporis dignissimos amet veritatis porro aperiam.
         </p>
     </section>
 
-    <section>
-        <h2 id="mobile">연락처</h2>
-        <p>Email : aroma4805@gmail.com</p>
-        <p>전화번호 : 01048057801</p>
+    <section class="mobile">
+        <div class="max-width">
+            <div class="contact-content">
+                <div class="right column">
+                    <div class="contact-text">Message Me!</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name" id="mobile">
+                                <input type="text" placeholder="Name">
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="E-mail">
+                            </div>
+                        </div>
+                        <div class="field subject">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="field content-area">
+                            <textarea cols="30" rows="10" placeholder="Content.." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>        
     </section>
 
     <footer>
