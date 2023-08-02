@@ -175,7 +175,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("pictures/img.jpg") no-repeat center;
+    background: url("C:\Users\aroma\OneDrive\문서\HG\Responsive Portfolio Website\pictures\img.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
