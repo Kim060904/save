@@ -175,7 +175,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAADFBMVEUAAAABFCMACxQAAwSg3VkGAAAAUUlEQVR4nO3OAQ0AMAgDMMb9e74MSGgVtGqJJP2mEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHDTB+3FAAnlWfWJAAAAAElFTkSuQmCC") no-repeat center;
+    background: black no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
